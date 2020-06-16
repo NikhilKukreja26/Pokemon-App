@@ -1,9 +1,15 @@
-# pokemon_app
+# Pokemon App
+
+<ol>
+<li>Dark Mode</li>
+<li>Search Implemented</li>
+<li>Cachched Network Image</li>
+</ol>
 
 Pokemon App
-![](screenshots/dashboard-dark.png)
-![](screenshots/dashboard-light.png)
-![](screenshots/pokemon-detail-dark.png)
-![](screenshots/pokemon-detail-light.png)
-![](screenshots/search-screen.png)
-![](screenshots/splash.png)
+![](screenshot/dashboard-dark.png)
+![](screenshot/dashboard-light.png)
+![](screenshot/pokemon-detail-dark.png)
+![](screenshot/pokemon-detail-light.png)
+![](screenshot/search-screen.png)
+![](screenshot/splash.png)
