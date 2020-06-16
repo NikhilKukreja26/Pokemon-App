@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 import '../models/pokemon_model.dart';
 
@@ -86,10 +87,16 @@ class PokemonDetailScreen extends StatelessWidget {
             child: Container(
               width: 200.0,
               height: 200.0,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: NetworkImage(pokemon.img),
-                  fit: BoxFit.cover,
+              child: CachedNetworkImage(
+                imageUrl: pokemon.img,
+                fit: BoxFit.cover,
+                placeholder: (context, url) => Center(
+                  heightFactor: 18.0,
+                  child: CircularProgressIndicator(),
+                ),
+                errorWidget: (context, url, error) => Icon(
+                  Icons.error,
+                  color: Colors.black,
                 ),
               ),
             ),
