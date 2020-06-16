@@ -1,16 +1,17 @@
-# pokemon_app
+# Pokemon App
 
-A new Flutter project.
+Pokemon App
 
-## Getting Started
+<ol>
+<li>Dark Mode</li>
+<li>Search Implemented</li>
+<li>Cachched Network Image</li>
+</ol>
 
-This project is a starting point for a Flutter application.
+![](screenshot/splash.png)
+![](screenshot/dashboard-dark.png)
+![](screenshot/dashboard-light.png)
+![](screenshot/pokemon-detail-dark.png)
+![](screenshot/pokemon-detail-light.png)
+![](screenshot/search-screen.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
